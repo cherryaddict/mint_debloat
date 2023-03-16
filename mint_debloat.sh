@@ -21,3 +21,8 @@ sudo systemctl enable tmp.mount
 echo "blacklist btusb" | sudo tee /etc/modprobe.d/blacklist-bluetooth.conf
 echo "blacklist hci_uart" | sudo tee /etc/modprobe.d/blacklist-bluetooth.conf
 sudo apt install gedit abiword chromium-browser
+sudo apt update
+sudo apt upgrade
+sudo apt clean
+sudo apt autoclean
+sudo apt autoremove
