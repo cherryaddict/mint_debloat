@@ -6,3 +6,4 @@
 - disables swap
 - enables tmpfs
 - disables bluetooth 
+- installs gedit and abiword (in place of xed and libreoffice)
