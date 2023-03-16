@@ -20,5 +20,3 @@ sudo cp -v /usr/share/systemd/tmp.mount /etc/systemd/system/
 sudo systemctl enable tmp.mount
 echo "blacklist btusb" | sudo tee /etc/modprobe.d/blacklist-bluetooth.conf
 echo "blacklist hci_uart" | sudo tee /etc/modprobe.d/blacklist-bluetooth.conf
-
-
