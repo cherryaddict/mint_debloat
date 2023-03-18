@@ -1,6 +1,6 @@
 #!/bin/bash
 flatpak remote-delete flathub
-sudo apt purge simple-scan* firefox* libreoffice* hexchat* hypnotix* xviewer* xreader* thingy* onboard* drawing* pix* rhythmbox* thunderbird* warpinator* mintwelcome* blueman* mintbackup* gnome-disk-utility* baobab* bulky* sticky* system-config-printer* timeshift* *flatpak* gnome-system-monitor* xed* mintupdate synaptic redshift
+sudo apt purge simple-scan* firefox* libreoffice* hexchat* hypnotix* xviewer* xreader* thingy* onboard* drawing* pix* rhythmbox* thunderbird* warpinator* mintwelcome* blueman* mintbackup* gnome-disk-utility* baobab* bulky* sticky* system-config-printer* timeshift* *flatpak* gnome-system-monitor* xed* mintupdate synaptic redshift gnome-calculator
 sudo apt purge fonts-tlwg-norasi-ttf fonts-tlwg-purisa fonts-tlwg-purisa-ttf fonts-tlwg-sawasdee fonts-tlwg-sawasdee-ttf fonts-tlwg-typewriter fonts-tlwg-typewriter-ttf fonts-tlwg-typist fonts-tlwg-typist-ttf fonts-tlwg-typo fonts-tlwg-typo-ttf fonts-tlwg-umpush fonts-tlwg-umpush-ttf fonts-tlwg-waree fonts-tlwg-waree-ttf
 sudo dpkg-reconfigure fontconfig
 sudo journalctl --vacuum-size=40M
